@@ -1,11 +1,14 @@
-TOKEN = 'MTE3NjU3NDk0Njc5Mzc2Njk4Mw.GIOFwC.kocaYQSsk_2kze0B1hT231o18iVAp1KMXaQ0kw'
-
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
+import os
 import random
 import asyncio
 
-# TOKEN = 'YOUR_TOKEN'
+# Load variables from .env file
+load_dotenv()
+TOKEN = os.getenv('TOKEN')
+
 prefix = '/'  # Set a prefix for the command (e.g., '/')
 intents = discord.Intents.all()
 
