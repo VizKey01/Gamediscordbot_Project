@@ -31,15 +31,15 @@ async def start_letter_guessing(ctx):
     max_attempts = word_len * 2
 
     # Initialize the guessed word with '-'
-    guessed_word = ['-']
+    guessed_word = [':cat:']
 
     # Fill the remaining characters with '-'
     for _ in range(word_len - 1):
-        guessed_word.append('-' if word_to_guess[_].isalpha() else word_to_guess[_])
+        guessed_word.append(':cat:' if word_to_guess[_].isalpha() else word_to_guess[_])
 
     # Choose one hint character randomly from unfilled characters
-    hint_character_index = random.choice([i for i, char in enumerate(guessed_word) if char == '-'])
-    guessed_word[hint_character_index] = ':cat:'
+    hint_character_index = random.choice([i for i, char in enumerate(guessed_word) if char == ':cat:'])
+    guessed_word[hint_character_index] = word_to_guess[hint_character_index]
 
     # Display the initial message and guessed word in an embed with the hint
     embed = discord.Embed(title='ยินดีต้อนรับเข้าสู่ OMOWO Game', color=0x00ff00)
