@@ -1,4 +1,4 @@
-# Discord Game bot For Cat Lover 🐱🐈😻
+# Discord Bot Game For Cat Lover 🐱🐈😻
 Bot minigame for Discord to have fun with you and your friends and also gain knowledge.
 
 
