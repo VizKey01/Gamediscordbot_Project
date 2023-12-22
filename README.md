@@ -7,7 +7,7 @@ Bot minigame for Discord to have fun with you and your friends and also gain kno
 - Wordle Game  📚
   - 4 Difficulty level
   - Many vocabulary, many categories
-- 🔜 Sorting Game (Coming Soon...)  🐸🐱🐍🐀
+- 🔜 Sorting Game (In development)  🐸🐱🐍🐀
 - 🔜 OXY Game (Coming Soon...)  ❌⚪
 - 🔜 Gin Gummy Game (Coming Soon...)  🃏
 - 🔜 Mine sweeper Game (Coming Soon...)  💣💣🤯
@@ -18,7 +18,7 @@ Bot minigame for Discord to have fun with you and your friends and also gain kno
 ## Usage/Examples
 
 ```javascript
-/awm // For playing Wordle Game
+/amw wordle // For playing Wordle Game
 ```
 <br>
 <h3>⬇️⬇️ Try Bot Demo here ⬇️⬇️</h3>
